@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Home, PieChart, Settings, ChevronDown, ChevronUp, Pizza, HelpCircle } from 'lucide-react';
+import { Home, PieChart, Settings, ChevronDown, ChevronUp, Pizza, HelpCircle,  DollarSign } from 'lucide-react';
 
 interface SidebarProps {
   theme: 'light' | 'dark';
@@ -55,6 +55,18 @@ const Sidebar: React.FC<SidebarProps> = ({ theme }) => {
             <span>Pizza Orders</span>
           </Link>
 
+          <Link
+            to="/revenue"
+            className={`flex items-center space-x-3 px-4 py-3 rounded-lg transition-colors ${
+              isActive('/revenue')
+                ? 'bg-purple-600 text-white'
+                : `${baseText} ${hoverBg}`
+            }`}
+          >
+            < DollarSign className="h-5 w-5"/>
+            <span>Revenue</span>
+          </Link>
+ 
           <Link
   to="/join"
   className={`flex items-center space-x-3 px-4 py-3 rounded-lg transition-colors ${

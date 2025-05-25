@@ -5,6 +5,7 @@ import { getAuth, onAuthStateChanged, User, signInWithPopup, GoogleAuthProvider 
  
 import Dashboard from './components/Dashboard';
 import PizzaOrders from './components/PizzaOrders';
+import Revenue from './components/Revenue';
 import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import Login from './components/Login';
@@ -82,6 +83,7 @@ function App() {
                 <Routes>
                   <Route path="/" element={<Dashboard user={user} theme={theme} />} />
                   <Route path="/orders" element={<PizzaOrders theme={theme} />} />
+                  <Route path="/revenue" element={<Revenue theme={theme} />} />
                   <Route path="/help" element={<HelpPage />} />
                   <Route path="/join" element={<Spotlight />} />
                   <Route path="*" element={<Navigate to="/" replace />} />
