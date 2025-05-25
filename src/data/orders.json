@@ -1,0 +1,114 @@
+{
+  "orders": [
+    {
+      "id": "PZA001",
+      "customerName": "John Doe",
+      "pizzaType": "Margherita",
+      "quantity": 2,
+      "orderDate": "2025-02-15T14:30:00",
+      "status": "Delivered",
+      "price": 24.99,
+      "preparationMode": "Traditional",
+      "specialInstructions": "Extra crispy"
+    },
+    {
+      "id": "PZA002",
+      "customerName": "Jane Smith",
+      "pizzaType": "Pepperoni",
+      "quantity": 1,
+      "orderDate": "2025-02-15T15:45:00",
+      "status": "Preparing",
+      "price": 18.99,
+      "preparationMode": "Express",
+      "specialInstructions": "No onions"
+    },
+    {
+      "id": "PZA003",
+      "customerName": "Robert Johnson",
+      "pizzaType": "Veggie Supreme",
+      "quantity": 3,
+      "orderDate": "2025-02-15T16:20:00",
+      "status": "Pending",
+      "price": 42.99,
+      "preparationMode": "Traditional",
+      "specialInstructions": ""
+    },
+    {
+      "id": "PZA004",
+      "customerName": "Emily Davis",
+      "pizzaType": "Hawaiian",
+      "quantity": 1,
+      "orderDate": "2025-02-16T11:10:00",
+      "status": "Delivered",
+      "price": 17.50,
+      "preparationMode": "Express",
+      "specialInstructions": "Pineapple on the side"
+    },
+    {
+      "id": "PZA005",
+      "customerName": "Michael Brown",
+      "pizzaType": "Meat Lovers",
+      "quantity": 2,
+      "orderDate": "2025-02-16T12:00:00",
+      "status": "Preparing",
+      "price": 33.99,
+      "preparationMode": "Traditional",
+      "specialInstructions": "Add extra cheese"
+    },
+    {
+      "id": "PZA006",
+      "customerName": "Sophia Wilson",
+      "pizzaType": "BBQ Chicken",
+      "quantity": 1,
+      "orderDate": "2025-02-16T13:45:00",
+      "status": "Pending",
+      "price": 19.25,
+      "preparationMode": "Express",
+      "specialInstructions": "Gluten-free crust"
+    },
+    {
+      "id": "PZA007",
+      "customerName": "Daniel Martinez",
+      "pizzaType": "Four Cheese",
+      "quantity": 2,
+      "orderDate": "2025-02-16T14:30:00",
+      "status": "Delivered",
+      "price": 28.00,
+      "preparationMode": "Traditional",
+      "specialInstructions": ""
+    },
+    {
+      "id": "PZA008",
+      "customerName": "Olivia Garcia",
+      "pizzaType": "Buffalo Chicken",
+      "quantity": 1,
+      "orderDate": "2025-02-16T15:15:00",
+      "status": "Preparing",
+      "price": 20.75,
+      "preparationMode": "Express",
+      "specialInstructions": "Extra spicy"
+    },
+    {
+      "id": "PZA009",
+      "customerName": "Liam Anderson",
+      "pizzaType": "Mushroom Delight",
+      "quantity": 3,
+      "orderDate": "2025-02-16T16:40:00",
+      "status": "Pending",
+      "price": 39.00,
+      "preparationMode": "Traditional",
+      "specialInstructions": "No garlic"
+    },
+    {
+      "id": "PZA010",
+      "customerName": "Ava Thomas",
+      "pizzaType": "Spinach & Feta",
+      "quantity": 2,
+      "orderDate": "2025-02-16T17:30:00",
+      "status": "Delivered",
+      "price": 26.50,
+      "preparationMode": "Express",
+      "specialInstructions": "Cut into squares"
+    }
+  ]
+}
