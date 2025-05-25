@@ -3,15 +3,15 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { initializeApp } from 'firebase/app';
 import { getAuth, onAuthStateChanged, User, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
  
-import Dashboard from './components/Dashboard';
-import PizzaOrders from './components/PizzaOrders';
-import Revenue from './components/Revenue';
-import Sidebar from './components/Sidebar';
+import Dashboard from './pages/Dashboard';
+import PizzaOrders from './pages/PizzaOrders';
+import Revenue from './pages/Revenue';
+import Sidebar from './pages/Sidebar';
 import Header from './components/Header';
-import Login from './components/Login';
+import Login from './pages/Login';
 // import LandingPage from './components/LandingPage';
-import HelpPage from './components/HelpPage'; 
-import Spotlight from './components/Spotlight';
+import HelpPage from './pages/HelpPage'; 
+import Spotlight from './pages/Spotlight';
  
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_API_KEY,

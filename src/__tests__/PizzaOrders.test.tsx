@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import PizzaOrders from '../components/PizzaOrders';
+import PizzaOrders from '../pages/PizzaOrders';
 
 describe('PizzaOrders Component', () => {
   it('renders without crashing', () => {
